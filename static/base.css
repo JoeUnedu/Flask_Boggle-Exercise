@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ccc;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1.5rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  display: block;
+}
+
+#time {
+  font-size: 2rem;
+  font-family: "Share Tech Mono", monospace;
+  /*font-family: 'Orbitron', sans-serif;*/
+}
+
+#score {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.score-td {
+  text-align: left;
+  vertical-align: top;
+  width: 12rem;
+}
+
+.time-td {
+  padding-top: 0.6rem;
+  text-align: right;
+  vertical-align: top;
+  width: 7rem;
+}
+
+.score-hist {
+  font-size: 1rem;
+  font-weight: normal;
+  display: block;
+}
+
+.flashes {
+  list-style-type: none;
+}
+
+#all-guesses {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.word-list {
+  margin-top: 0.25rem;
+  list-style-type: none;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.valid {
+  color: rgb(0, 180, 0);
+}
+
+.not-on-board {
+  color: rgb(255, 85, 0);
+}
+
+.not-a-word {
+  color: #d3001ca3;
+}
+
+.error {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #d30000;
+}
+
+.game-over {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  color: orange;
+}
+
+.high-score {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(0, 96, 0);
+  background-color: rgb(128, 128, 128);
+  border-radius: 10px;
+}
+
+.debug {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+}
+
+a {
+  color: rgb(156, 220, 254);
+}
+
+.tbl-game {
+  margin-top: 1rem;
+  table-layout: fixed;
+  width: 12rem;
+}
+
+td {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
